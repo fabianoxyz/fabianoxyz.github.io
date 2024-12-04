@@ -1,19 +1,17 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
+title: 'Fabiano Oliveira'
+description: 'Experienced T-Shaped Software Engineer'
+url: 'https://fabiano.xyz/'
 baseurl: '/jekyll-uno'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Fabiano Oliveira'
+  email: hello@fabiano.xyz
+  stackoverflow_username: 9095554/fabiano
+  github_username:  fabianoxyz
+  linkedin_username:  fabianoxyz
 
 defaults:
   -

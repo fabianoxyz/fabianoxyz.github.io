@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
@@ -9,7 +10,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'Open-Dyslexic', sans-serif;
 	vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -54,9 +55,13 @@ body {
 @font-face {
 	font-family: "foundation-icons";
 	src: url("../fonts/foundation-icons/foundation-icons.eot");
-	src: url("../fonts/foundation-icons/foundation-icons.eot?") format("embedded-opentype"), url("../fonts/foundation-icons/foundation-icons.woff") format("woff"), url("../fonts/foundation-icons/foundation-icons.ttf") format("truetype"), url("../fonts/foundation-icons/foundation-icons.svg") format("svg");
+	src: url("../fonts/foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/foundation-icons/foundation-icons.woff") format("woff"),
+	url("../fonts/foundation-icons/foundation-icons.ttf") format("truetype"),
+	url("../fonts/foundation-icons/foundation-icons.svg#fontcustom") format("svg");
 	font-weight: normal;
-	font-style: normal; }
+	font-style: normal;
+}
 .icon:before {
 	font-family: "foundation-icons";
 	font-style: normal;
@@ -925,7 +930,7 @@ html {
 	max-height: 100%; }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "", sans-serif;
 	font-size: 1em;
 	color: #666666; }
 
