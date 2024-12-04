@@ -9,6 +9,12 @@
 
 /* Modifications */
 
+.panel-main div.text-summary {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5em;
+}
+
 pre.highlight,
 .highlight pre {
   padding: 10px;
